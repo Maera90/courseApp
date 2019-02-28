@@ -9,9 +9,9 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
   recipes: Recipe[] = [
-    new Recipe('A Test Recipe', "This is simply a test",'https://cdn.pixabay.com/photo/2015/12/20/17/11/fish-1101436_960_720.jpg'),
-    new Recipe('A Test Recipe2', "This is simply a test",'https://cdn.pixabay.com/photo/2015/12/20/17/11/fish-1101436_960_720.jpg'),
-    new Recipe('A Test Recipe3', "This is simply a test",'https://cdn.pixabay.com/photo/2015/12/20/17/11/fish-1101436_960_720.jpg')
+    new Recipe('A Test Recipe', "This is simply a test asdasd ",'https://cdn.pixabay.com/photo/2015/12/20/17/11/fish-1101436_960_720.jpg'),
+    new Recipe('A Test Recipe2', "This is simply a testfdsfsdaf",'https://cdn.pixabay.com/photo/2015/12/20/17/11/fish-1101436_960_720.jpg'),
+    new Recipe('A Test Recipe3', "This is simply a testgfgagf",'https://cdn.pixabay.com/photo/2015/12/20/17/11/fish-1101436_960_720.jpg')
     ];
   constructor() { }
 
